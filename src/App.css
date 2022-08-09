@@ -1,5 +1,13 @@
 body{
   background-color: goldenrod;
   padding: 1em;
+  margin-top: 16px;
+}
+
+#beerList{
+  display: flex;
+  direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
 }
 
